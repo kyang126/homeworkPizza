@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Varela);
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(reset.css);
+
+
+body {
+    background-image: url(../img/purple.png);
+    background-repeat: repeat;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+p {
+	padding: 10px;
+}
+
+dl{
+	padding: 10px;
+}
+
+dl dt{
+	font-size: 125%;
+	margin-top: 10px;
+}
+
+.midTitle{
+	text-align:center;
+	font-size: 150%;
+	margin: 0 auto;
+	margin-top:10px;
+}
+
+.logo {
+	float:left;
+	margin-right: 20px;
+}
+
+.title {
+	font-family:'Monoton', sans-serif;
+	font-size: 250%;
+	color:#116189;
+}
+
+.title2{
+	clear: both;
+	margin-top: 10px;
+	font-size:150%
+
+}
+
+.motto {
+	font-size: 120%;
+	font-style: italic;
+}
+
+/*This made the white box where the text is */
+.content-box {
+	width: 80%;
+	background-color: #FFF57C;
+	margin: 0 auto;
+	box-shadow: 2px 2px 6px #555;
+}
+
+/*This created the orange bar*/
+nav ul {
+	background-color: #B725E8;
+	border-radius:5px;
+	margin-top: 10px;
+}
+
+/*This lined the pages up*/
+nav li {
+	display: inline-block;
+}
+
+/*This displayed the pages properly */
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight:bold;
+	font-size: 150%;
+}
+
+.position{
+	/*display: inline-block;
+	width: 30%;*/
+	display:inline-block;
+	text-align: center;
+	margin:0 auto;
+	width:33%;
+}
+
+dl a:link,
+dl a:visited {
+text-decoration: none;
+}
+
+dl a:hover{
+	text-decoration: underline;
+}
+
+/*This made it so when hovering over them it doesn't underline*/
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+/*This changed the color when hovered*/
+nav a:hover {
+	background-color: #FF9D45;
+}
+
+.information {
+	
+}
+
+.pizza {
+	width: 100%;
+}
+
+.counter {
+	width: 100%;
+}
+
+.oven {
+	width: 100%;
+}
+
+.price {
+	float:right;
+	
+}
+
+aside{
+	float: right;
+	padding: 20px;
+	background-color: #B725E8;
+	border: 1px dotted #CCC;
+}
+
+
+footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid #CCC;
+    font-size: 80%;
+    font-style: italic;
+    clear: both;
+}
