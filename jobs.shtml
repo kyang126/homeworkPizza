@@ -1,0 +1,32 @@
+<!doctype <html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Assignment 1</title>		<meta name="author" content="1065387">
+	</head>
+	<body>
+		<article class = "content-box">
+			<header>
+				<!--#include virtual="inc/logoTitle.html" -->
+			</header>
+
+			<!--This contains the page bars -->
+			<!--#include virtual="inc/navigation.html" -->
+
+			<!--Title of the page-->
+			<h2 class = "midTitle">Positions Available</h2>
+
+			<img class = "hiring" src="img/hiring.jpg" alt="hiring picturing" width = "400" height = "200">
+
+			<!--Shows the positions for hire-->
+			<aside>Please come in to apply to one of these positions!</aside>
+			<img class = "chef" src="img/chef.png" alt="map logo" width = "70" height = "70">
+			<p class = "jobs">Kitchen Staff</p>
+			<img class = "wheel" src="img/wheel.png" alt="map logo" width = "70" height = "60">
+			<p class = "jobs">Delivery Drivers</p>
+
+			<!--This details the copyright of the store, and where to call -->
+			<!--#include virtual="inc/footer.html" -->
+		</article>
+	</body>
+</html>
